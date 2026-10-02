@@ -1,0 +1,14 @@
+{
+  "name": "site-academia-trainning",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional da Academia Trainning (Academia e Fisio) - Joinville/SC",
+  "scripts": {
+    "start": "node servidor-local.js",
+    "fotos": "node otimizar-fotos.js",
+    "publicar": "node otimizar-fotos.js && node montar-publicacao.js"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.0"
+  }
+}

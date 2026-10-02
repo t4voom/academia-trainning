@@ -1,0 +1,33 @@
+FOTOS ORIGINAIS DA ACADEMIA TRAINNING
+=====================================
+
+Coloque aqui as fotos originais (JPG ou PNG, do jeito que vieram do celular
+ou do dono da academia). Elas nunca são alteradas: o script gera cópias
+otimizadas na pasta ../img.
+
+O nome do arquivo decide onde a foto aparece no site:
+
+  hero            Topo do site. Foto forte e horizontal (sala de musculação
+                  em plano aberto ou a fachada).
+  sobre           Seção "Sobre". Recepção com a logo na parede (vertical).
+  musculacao      Modalidades > Musculação.
+  artes-marciais  Modalidades > Artes marciais (aula no tatame azul).
+  fisioterapia    Modalidades > Fisioterapia.
+  galeria-1       Estrutura: fachada azul/roxa com o estacionamento.
+  galeria-2       Estrutura: sala de musculação, visão geral.
+  galeria-3       Estrutura: tatame azul / aula infantil.
+  galeria-4       Estrutura: recepção com a logo.
+  galeria-5       Estrutura: equipamentos em detalhe.
+  fisio-sala      Bloco "Fisioterapia": sala ou atendimento de fisio.
+  og              (opcional) Imagem que aparece ao compartilhar o link.
+                  Se não existir, o script usa a foto "hero".
+
+Exemplos: hero.jpg, galeria-1.png, artes-marciais.jpeg
+
+Depois de colocar ou trocar fotos, rode na pasta do projeto:
+
+  npm run fotos
+
+O script converte tudo para WebP (480, 960 e 1600 px) e atualiza o
+index.html sozinho. Se a descrição (alt) não combinar com a foto nova,
+ajuste o texto em otimizar-fotos.js, na lista ESPACOS.
